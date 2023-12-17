@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oscyloskop</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div id="configuration">
+        <h1>FazaSinusoidy</h1>
+        <input type="number" id="fazaSinusoidy"><br><br>
+        <h1>częstotliwość</h1>
+        <input type="number" id="fraquency"><br><br>
+        <h1>amplituda</h1>
+        <input type="number" id="amplituda" placeholder="amplituda"><br><br>
+        <button onclick="start_simulation()">Start simulation</button>
+    </div>
+    <div id="screen">
+        <canvas id="scrr">
+            
+        </canvas>
+    </div>
+    <script src="oscyloskop.js"></script>
+</body>
+</html>
